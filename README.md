@@ -22,20 +22,20 @@ A API trabalha com banco de dados __MongoDB__, autenticação JWT, upload de ima
 
 | Método | Caminho da Rota | Descrição da Rota |
 |---|---|---|
-| PATCH | http://localhost:3000/users/edit/:id | Altera os dados do usuário |
-| GET | http://localhost:3000/users/:id | Busca os dados do usuário pelo Id |
-| GET | http://localhost:3000/users/checkuser | Busca os dados do usuário ref. Token |
-| POST | http://localhost:3000/users/login | Login do usuário |
-| POST | http://localhost:3000/users/register | Cadastra novo usuário |
-| POST | http://localhost:3000/pets/conclude/:id | Conclui a adoção do animal |
-| PATCH | http://localhost:3000/pets/schedule/:id | Agenda uma visita para conhecer o animal |
-| PATCH | http://localhost:3000/pets/:id | Altera os dados do animal |
-| DELETE | http://localhost:3000/pets/:id | Exclui um animal |
-| GET | http://localhost:3000/pets/:id | Busca os dados do animal pelo Id |
-| GET | http://localhost:3000/pets/myadoptions | Retorna os animais que eu adotei |
-| GET | http://localhost:3000/pets/mypets | Retorna os animais que eu coloquei para adoção |
-| GET | http://localhost:3000/pets | Retorna todos os animais |
-| POST | http://localhost:3000/pets/create | Cria um novo animal para adoção  |
+| PATCH | http://localhost:5000/users/edit/:id | Altera os dados do usuário |
+| GET | http://localhost:5000/users/:id | Busca os dados do usuário pelo Id |
+| GET | http://localhost:5000/users/checkuser | Busca os dados do usuário ref. Token |
+| POST | http://localhost:5000/users/login | Login do usuário |
+| POST | http://localhost:5000/users/register | Cadastra novo usuário |
+| POST | http://localhost:5000/pets/conclude/:id | Conclui a adoção do animal |
+| PATCH | http://localhost:5000/pets/schedule/:id | Agenda uma visita para conhecer o animal |
+| PATCH | http://localhost:5000/pets/:id | Altera os dados do animal |
+| DELETE | http://localhost:5000/pets/:id | Exclui um animal |
+| GET | http://localhost:5000/pets/:id | Busca os dados do animal pelo Id |
+| GET | http://localhost:5000/pets/myadoptions | Retorna os animais que eu adotei |
+| GET | http://localhost:5000/pets/mypets | Retorna os animais que eu coloquei para adoção |
+| GET | http://localhost:5000/pets | Retorna todos os animais |
+| POST | http://localhost:5000/pets/create | Cria um novo animal para adoção  |
 
 ## :hammer_and_wrench: Tecnologias
 * Back-end
